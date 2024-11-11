@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+  datasource:
+    username: gangnam
+    password: gangnam
+    url: jdbc:mysql://localhost:3306/login
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+jwt:
+  key: wer0fgyjg9yghj0=8942j0y2j4gh9w
+  time: 86400000
